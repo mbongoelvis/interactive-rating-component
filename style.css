@@ -60,7 +60,7 @@ body{
     color: var(--color-light-gray);
     cursor: pointer;
     margin: 2rem 0;
-    transition: background-color .5s, color .5s;
+    transition: background-color .8s, color .8s;
 }
 .rate span:hover{
     background-color: var(--color-light-gray);
@@ -83,7 +83,7 @@ button:hover{
     color: var(--color-orange);
     background-color: var(--color-white);
 }
-.orange{
+.first-section .orange{
     background-color: var(--color-orange);
     color: var(--color-white);
 }
