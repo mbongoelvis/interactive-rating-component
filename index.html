@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="first-section">
+      <div class="image">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+      <div class="text-section">
+        <h2>How did we do?</h2>
+        <p>please let uss know how we did with your support request. All feedback ia appreciated to help us improve our
+          offering!</p>
+      </div>
+      <div class="rate">
+        <span onclick="toggling1()" id="first">1</span>
+        <span onclick="toggling2()" id="second">2</span>
+        <span onclick="toggling3()" id="third">3</span>
+        <span onclick="toggling4()" id="fourth">4</span>
+        <span onclick="toggling5()" id="fift">5</span>
+      </div>
+      <button onclick="submit()">SUBMIT</button>
+    </div>
+
+    <!-- submiting section -->
+    <div class="second-section">
+      <img src="images/illustration-thank-you.svg" alt="">
+      <p>You selected 4 out 0f 5</p>
+      <div class="submit-section">
+        <h2>Thank you!</h2>
+        <span>We appreciate your taking the time to give a rating.If you ever need more support, don't hesitate to get in touch</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
